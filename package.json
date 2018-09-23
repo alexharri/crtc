@@ -1,0 +1,50 @@
+{
+  "name": "crtc",
+  "version": "0.1.0",
+  "description": "Create React TypeScript Component: A tool for creating React component scaffoldings.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node -r ts-node/register index HelloWorld ./output -rsp",
+    "build": "tsc"
+  },
+  "keywords": [
+    "crtc",
+    "react",
+    "component",
+    "create",
+    "redux",
+    "typescript"
+  ],
+  "author": "Alex Harri Jónsson <alexharri2919@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexharri/crtc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexharri/crtc/issues"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "homepage": "https://github.com/alexharri/crtc#readme",
+  "devDependencies": {
+    "@types/command-line-args": "^5.0.0",
+    "@types/command-line-usage": "^5.0.1",
+    "@types/mkdirp": "^0.5.2",
+    "@types/node": "^10.10.1",
+    "@types/node-emoji": "^1.8.0",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "bin": "./lib/index.js",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "change-case": "^3.0.2",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "mkdirp": "^0.5.1"
+  }
+}

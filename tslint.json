@@ -1,0 +1,19 @@
+{
+  "extends": ["tslint:latest"],
+  "rules": {
+    "semicolon": [true, "always"],
+    "no-console": false,
+    "arrow-return-shorthand": true,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "no-submodule-imports": false,
+    "indent": [true, "spaces", 2],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "no-implicit-dependencies": false,
+    "no-consecutive-blank-lines": [true, 2],
+    "prefer-for-of": false,
+    "quotemark": [true, "double"],
+    "radix": false
+  }
+}
