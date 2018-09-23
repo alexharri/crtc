@@ -1,10 +1,10 @@
 {
   "name": "crtc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create React TypeScript Component: A tool for creating React component scaffoldings.",
   "main": "lib/index.js",
   "scripts": {
-    "start": "node -r ts-node/register index HelloWorld ./output -rsp",
+    "start": "tsc --watch",
     "build": "tsc"
   },
   "keywords": [
